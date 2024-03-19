@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.container{
+  width: 100% !important;
+}
+
+h1{
+  text-align: center;
+  color: #178e5d;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#todo-name{
+  margin-left: 115px;
+  margin-right: 30px;
+  width: 300px;
+}
+
+#todo-description{
+  margin-right: 30px;
+  width: 300px;
+}
+
+.addButton{
+  background-color: #178e5d;
+  width:150px;
+}
+
+.list-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+select{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(195, 111, 128);
+ }
+
+ .statusfliter{
+  margin-left: 700px;
+ }
+
+ .nameLabel{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+ }
+
+ .desLabel{
+  display: flex;
+  margin-left: 10px;
+ }
+
+ .statusLabel{
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+ }
+
+ span{
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 25px;
+ }
+
+ .editButton,.updateButton{
+  display: inline-block;
+  width: 150px;
+  background-color: #178e5d;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+ }
+
+ .delbutton{
+  display: inline-block;
+  width: 150px;
+  background-color: #178e5d;
+  margin-left: 10px;
+  margin-bottom: 10px;
+ }
+
+ .card{
+border-radius: 5px;
+background-color: #084d30;
+margin-right: 10px;
+margin-bottom: 10px;
+width:361px !important;
+ }
+
+ .card-container{
+  margin-top: 10px;
+ }
+ 
+ .row-cols-3>*{
+max-width: 32.333333%;
+ }
+ 
